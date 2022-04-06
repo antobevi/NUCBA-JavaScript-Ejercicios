@@ -2,6 +2,8 @@
 // (puede ser tanto masa como los ingredientes que van sobre la base).
 const ingredientesPizza = ['harina', 'sal', 'aceite', 'agua', 
                             'levadura', 'salsa de tomate', 'queso']
+const pares = [];
+const impares = [];
 
 // Funciones auxiliares
 function tieneCantParDeLetras(nombre) {
@@ -32,8 +34,6 @@ function separarIngredientes(ingredientes, pares, impares) {
 // Funcion principal
 // Crear una función que acepte ese array (ingredientesPizza) como parámetro.
 function getIngredientesParesEImpares(ingredientes) {
-    const pares = [];
-    const impares = [];
     separarIngredientes(ingredientes, pares, impares);
 
     // Imprimir en consola:  "Los ingredientes pares son: (ingredientes en array pares). 
