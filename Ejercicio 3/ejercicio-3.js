@@ -53,3 +53,8 @@ document.getElementById("boton").addEventListener("click", renderizar_input(), f
 function renderizar_input() {
     // TODO
 }
+
+// IMPORTANTE: No estoy al dia con las clases asi que se me complico muucho avanzarlo.
+// No se si hay algun problema por el plan con el que me anote si no entrego un ejercicio
+// asi que por las dudas entrego algo aunque sea, perdon u.u 
+// Lo voy a terminar en cuanto me ponga al dia
